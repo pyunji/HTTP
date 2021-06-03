@@ -16,8 +16,8 @@
 ## URL 문법
 `scheme://[userinfo@]host[:port][/path][?query][#fragment]`
 ### URL scheme
-- **scheme**://\[userinfo@]host\[:port]\[/path]\[?query]\[#fragment]
-- **https**://ww<k>w.google.com:443/search?q=hello&hl=ko
+- **scheme**:<k>//\[userinfo@]host\[:port]\[/path]\[?query]\[#fragment]
+- **https**:<k>//www<k>.google.com:443/search?q=hello&hl=ko
 - 주로 프로토콜 사용
 - 프로토콜: 어떤 방식으로 자원에 접근할 것인가 하는 약속 규칙
 	- ex) http, https, ftp 등..
@@ -30,26 +30,26 @@
 
 ### URL host
 - scheme://\[userinfo@]**host**\[:port]\[/path]\[?query]\[#fragment]
-- https://**ww<k>w.google.com**:443/search?q=hello&hl=ko
+- ht<k>tps://**www<k>.google.com**:443/search?q=hello&hl=ko
 - 호스트명
 - 도메인명 또는 IP 주소를 직접 사용가능
 
 ### URL PORT
-- scheme://\[userinfo@]host**\[:port]**\[/path]\[?query]\[#fragment]
-- h<k>ttps://ww<k>w.google.com**:443**/search?q=hello&hl=ko
+- scheme://\[userinfo@]host<k>**\[:port]**\[/path]\[?query]\[#fragment]
+- htt<k>ps://www<k>.google.com<k>**:443**/search?q=hello&hl=ko
 - 포트(PORT)
 - 접속 포트
 - 일반적으로 생략, 생략시 http는 80, https는 443
 
 ### URL path
 - scheme://\[userinfo@]host\[:port]**\[/path]**\[?query]\[#fragment]
-- http<k>s://w<k>ww.google.com:443**/search**?q=hello&hl=ko
+- http<k>s://www.google.com:443<k>**/search**?q=hello&hl=ko
 - 리소스 경로(path), 계층적 구조
 - ex) /home/file1.jpg        /members/100      /items/iphone12
 
 ### URL query
 - scheme://\[userinfo@]host\[:port]\[/path]**\[?query]**\[#fragment]
-- https<k>://ww<k>w.google.com:443/search**?q=hello&hl=ko**
+- http<k>s://www.google.com:443/search</k>**?q=hello&hl=ko**
 - `key=value` 형태
 - `?`로 시작, `&`로 추가 가능
 	- ex) `?keyA=valueA&keyB=valueB`
@@ -57,7 +57,7 @@
 
 ### URL fragment
 - scheme://\[userinfo@]host\[:port]\[/path]\[?query]**\[#fragment]**
-- https://<k>github.com/jjukkumi/Java-PS**#-스터디-진행-규칙**
+- http<k>s://github.com/jjukkumi/Java-PS<k>**#-스터디-진행-규칙**
 - html 내부 북마크 등에 사용
 - 서버에 전송하는 정보는 아님
 
